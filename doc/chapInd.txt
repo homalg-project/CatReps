@@ -1,0 +1,21 @@
+  
+  
+  [1XIndex[101X
+  
+  [2XCategoryOfRepresentations[102X, for IsAlgebroid, IsCapCategory 1.3-2 
+  [2XConcreteCategoryWithEndomorphismGroups[102X, for IsList 1.3-1 
+  [2XConvertToMapOfFinSets[102X 1.4-1 
+  [2XEmbeddingOfSubRepresentation[102X, for IsList, IsCapCategoryObjectInHomCategory 1.3-3 
+  [2XIsCellInAFiniteConcreteCategory[102X, for IsCapCategoryCell 1.1-2 
+  [2XIsFiniteConcreteCategory[102X, for IsCapCategory 1.1-1 
+  [2XIsMorphismInAFiniteConcreteCategory[102X, for IsCellInAFiniteConcreteCategory and IsCapCategoryMorphism 1.1-4 
+  [2XIsObjectInAFiniteConcreteCategory[102X, for IsCellInAFiniteConcreteCategory and IsCapCategoryObject 1.1-3 
+  [2XRecordOfCategory[102X, for IsAlgebroid 1.4-2 
+  [2XRecordOfCatRep[102X, for IsCapCategoryObjectInHomCategory 1.4-3 
+  [2XSetOfGeneratingMorphisms[102X, for IsCapSubcategory 1.2-2 
+  [2XSetOfMorphisms[102X, for IsCapSubcategory 1.2-3 
+  [2XSetOfObjects[102X, for IsCapSubcategory 1.2-1 
+  [2XWeakDirectSumDecomposition[102X, for IsCapCategoryObjectInHomCategory 1.5-1 
+  
+  
+  -------------------------------------------------------
