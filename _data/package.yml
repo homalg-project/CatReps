@@ -1,6 +1,6 @@
 name: CatReps
-version: 2020.02.16
-date: 16/02/2020
+version: 2020.02.18
+date: 18/02/2020
 description: Representations and cohomology of finite categories
 
 authors:
@@ -26,19 +26,19 @@ needed-pkgs:
       version: ">= 1.5"
       url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
     - name: "CAP"
-      version: ">= 2019.06.07"
+      version: ">= 2020.02.16"
       url: "http://homalg-project.github.io/CAP_project/CAP/"
     - name: "FinSetsForCAP"
       version: ">= 2019.12.19"
       url: "https://github.com/homalg-project/FinSetsForCAP/"
     - name: "SubcategoriesForCAP"
-      version: ">= 2020.01.06"
+      version: ">= 2020.02.02"
       url: "https://github.com/homalg-project/SubcategoriesForCAP/"
     - name: "MatricesForHomalg"
       version: ">= 2020.02.02"
       url: "https://homalg-project.github.io/homalg_project/MatricesForHomalg/"
     - name: "FunctorCategories"
-      version: ">= 2020.02.15"
+      version: ">= 2020.02.18"
       url: "https://github.com/homalg-project/FunctorCategories/"
 
 www: https://homalg-project.github.io/CatReps
@@ -47,7 +47,7 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.02.16/CatReps-2020.02.16.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.02.18/CatReps-2020.02.18.tar.gz
 
 abstract: 
 
