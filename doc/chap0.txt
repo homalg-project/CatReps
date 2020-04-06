@@ -6,10 +6,10 @@
              [1X Representations and cohomology of finite categories [101X
   
   
-                                   2020.02.20
+                                   2020.04.02
   
   
-                                20 February 2020
+                                  2 April 2020
   
   
                                 Mohamed Barakat
@@ -70,7 +70,6 @@
       1.4-3 RecordOfCatRep
     1.5 [33X[0;0YOperations[133X
       1.5-1 WeakDirectSumDecomposition
-      1.5-2 YonedaProjective
   
   
   [32X

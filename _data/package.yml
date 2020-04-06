@@ -1,6 +1,6 @@
 name: CatReps
-version: 2020.02.20
-date: 20/02/2020
+version: 2020.04.02
+date: 02/04/2020
 description: Representations and cohomology of finite categories
 
 authors:
@@ -41,7 +41,7 @@ needed-pkgs:
       version: ">= 2020.02.19"
       url: "https://github.com/homalg-project/Toposes"
     - name: "FunctorCategories"
-      version: ">= 2020.02.19"
+      version: ">= 2020.04.02"
       url: "https://github.com/homalg-project/FunctorCategories/"
 
 www: https://homalg-project.github.io/CatReps
@@ -50,7 +50,7 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.02.20/CatReps-2020.02.20.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.04.02/CatReps-2020.04.02.tar.gz
 
 abstract: 
 

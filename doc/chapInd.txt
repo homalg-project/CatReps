@@ -16,7 +16,6 @@
   [2XSetOfMorphisms[102X, for IsCapSubcategory 1.2-3 
   [2XSetOfObjects[102X, for IsCapSubcategory 1.2-1 
   [2XWeakDirectSumDecomposition[102X, for IsCapCategoryObjectInHomCategory 1.5-1 
-  [2XYonedaProjective[102X, for IsCapHomCategory, IsCapCategoryObject 1.5-2 
   
   
   -------------------------------------------------------
