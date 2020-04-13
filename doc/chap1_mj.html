@@ -44,19 +44,21 @@
 </span>
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X8344F6B1871B9CB5">1.3-1 ConcreteCategoryForCAP</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X86C2982F82446D53">1.3-2 CategoryOfRepresentations</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X78189F2D81711B7E">1.3-3 EmbeddingOfSubRepresentation</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X78189F2D81711B7E">1.3-2 EmbeddingOfSubRepresentation</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X8508AEF8845565A1">1.4 <span class="Heading">Tools</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X7DE8E16C7C2D387B">1.4 <span class="Heading">Operations</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X841B9CFC7EB599A0">1.4-1 ConvertToMapOfFinSets</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7EABCB0081022ACE">1.4-1 WeakDirectSumDecomposition</a></span>
 </div></div>
-<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X7DE8E16C7C2D387B">1.5 <span class="Heading">Operations</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X8508AEF8845565A1">1.5 <span class="Heading">Tools</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7EABCB0081022ACE">1.5-1 WeakDirectSumDecomposition</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X841B9CFC7EB599A0">1.5-1 ConvertToMapOfFinSets</a></span>
 </div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X85861B017AEEC50B">1.6 <span class="Heading">Example</span></a>
+</span>
+</div>
 </div>
 
 <h3>1 <span class="Heading">Finite concrete categories</span></h3>
@@ -168,14 +170,68 @@ A morphism in subcategory given by:
 [ [ 4, 5, 6 ], [ [ 4, 5 ], [ 5, 6 ], [ 6, 4 ] ], [ 4, 5, 6 ] ]
 </pre></div>
 
-<p><a id="X86C2982F82446D53" name="X86C2982F82446D53"></a></p>
+<p><a id="X78189F2D81711B7E" name="X78189F2D81711B7E"></a></p>
 
-<h5>1.3-2 CategoryOfRepresentations</h5>
+<h5>1.3-2 EmbeddingOfSubRepresentation</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CategoryOfRepresentations</code>( <var class="Arg">kq</var>, <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: a <strong class="pkg">CAP</strong> category</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; EmbeddingOfSubRepresentation</code>( <var class="Arg">eta</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: an morphism in a Hom-category</p>
 
-<p>Construct the category of representations of the algebroid <var class="Arg">kq</var> with values in the Abelian category <var class="Arg">A</var>.</p>
+<p>Concstruct the embedding of a subrepresentation <span class="SimpleMath">\(S\)</span> of <var class="Arg">F</var> by a list <var class="Arg">eta</var> of morphisms, where the image embeddings thereof are the components of the natural monomorphism from <span class="SimpleMath">\(S\)</span> into <var class="Arg">F</var>.</p>
+
+<p><a id="X7DE8E16C7C2D387B" name="X7DE8E16C7C2D387B"></a></p>
+
+<h4>1.4 <span class="Heading">Operations</span></h4>
+
+<p><a id="X7EABCB0081022ACE" name="X7EABCB0081022ACE"></a></p>
+
+<h5>1.4-1 WeakDirectSumDecomposition</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WeakDirectSumDecomposition</code>( <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a list</p>
+
+<p>Return a list of monomorphisms describing the embeddings of a list of direct summands of the representation <var class="Arg">F</var>, the direct sum thereof is isomorphic to <var class="Arg">F</var>.</p>
+
+<p><a id="X8508AEF8845565A1" name="X8508AEF8845565A1"></a></p>
+
+<h4>1.5 <span class="Heading">Tools</span></h4>
+
+<p><a id="X841B9CFC7EB599A0" name="X841B9CFC7EB599A0"></a></p>
+
+<h5>1.5-1 ConvertToMapOfFinSets</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ConvertToMapOfFinSets</code>( <var class="Arg">objects_list</var>, <var class="Arg">generator</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
+<p>Returns: a morphism of finite sets</p>
+
+<p>Construct the map of finite sets corresponding to the list of images in the convention of catreps.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">c3c3 := ConcreteCategory([[2,3,1],[4,5,6],[,,,5,6,4]]);</span>
+rec( codomain := [ 1, 2, 2 ], domain := [ 1, 1, 2 ],
+     generators := [ [ 2, 3, 1 ], [ 4, 5, 6 ], [ ,,, 5, 6, 4 ] ],
+     objects := [ [ 1, 2, 3 ], [ 4, 5, 6 ] ], operations := rec(  ) )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g1 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[1] );</span>
+&lt;A morphism in FinSets&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g1 );</span>
+[ [ 1, 2, 3 ], [ [ 1, 2 ], [ 2, 3 ], [ 3, 1 ] ], [ 1, 2, 3 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g2 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[2] );</span>
+&lt;A morphism in FinSets&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g2 );</span>
+[ [ 1, 2, 3 ], [ [ 1, 4 ], [ 2, 5 ], [ 3, 6 ] ], [ 4, 5, 6 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g3 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[3] );</span>
+&lt;A morphism in FinSets&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g3 );</span>
+[ [ 4, 5, 6 ], [ [ 4, 5 ], [ 5, 6 ], [ 6, 4 ] ], [ 4, 5, 6 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g := ConvertToMapOfFinSets( c3c3.objects, [,,,1,1,1] );</span>
+&lt;A morphism in FinSets&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g );</span>
+[ [ 4, 5, 6 ], [ [ 4, 1 ], [ 5, 1 ], [ 6, 1 ] ], [ 1, 2, 3 ] ]
+</pre></div>
+
+<p><a id="X85861B017AEEC50B" name="X85861B017AEEC50B"></a></p>
+
+<h4>1.6 <span class="Heading">Example</span></h4>
 
 
 <div class="example"><pre>
@@ -190,53 +246,20 @@ GF(3) * q
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rel := [GF3q.a^3-GF3q.1, GF3q.c^3-GF3q.2, GF3q.a*GF3q.b-GF3q.b*GF3q.c];;</span>
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">kq := Algebroid( GF3q, rel );</span>
 Algebroid generated by the right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">SetIsLinearClosureOfACategory( kq, true );</span>
 </pre></div>
 
-<p>A representation of the category c3c3 is another way to encode a module homomorphism between two modules over the cyclic group <span class="SimpleMath">\(C_3\)</span> of order <span class="SimpleMath">\(3\)</span>: The vector space underlying the first module is the given by the value of (1). The action of C3 on the first module is given by the value of (a). The vector space underlying the second module is the given by the value of (2). The action on the second module is given by the value of (c). The above relation of the quiver states that the value of (b) is a module homomorphism from the first to the second <span class="SimpleMath">\(C_3\)</span>-module. Now we add the bialgebroid structure:</p>
-
-
-<div class="example"><pre>
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">counit := rec( a := 1, b := 1, c := 1 );</span>
-rec( a := 1, b := 1, c := 1 )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">kq2 := kq^2;</span>
-Algebroid generated by the right quiver qxq(1x1,1x2,2x1,2x2)\
-[1xa:1x1-&gt;1x1,1xb:1x1-&gt;1x2,1xc:1x2-&gt;1x2,2xa:2x1-&gt;2x1,2xb:2x1-&gt;2x2,2xc:2x2-&gt;2x2,\
-ax1:1x1-&gt;1x1,ax2:1x2-&gt;1x2,bx1:1x1-&gt;2x1,bx2:1x2-&gt;2x2,cx1:2x1-&gt;2x1,cx2:2x2-&gt;2x2]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">PreCompose( kq2.ax1, kq2.1xa ) = PreCompose( kq2.1xa, kq2.ax1 );</span>
-true
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">PreCompose( kq2.bx1, kq2.2xb ) = PreCompose( kq2.1xb, kq2.bx2 );</span>
-true
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">PreCompose( kq2.cx2, kq2.2xc ) = PreCompose( kq2.2xc, kq2.cx2 );</span>
-true
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">comult := rec( a := PreCompose( kq2.ax1, kq2.1xa ),</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">               b := PreCompose( kq2.1xb, kq2.bx2 ),</span>
-<span class="GAPprompt">&gt;</span> <span class="GAPinput">               c := PreCompose( kq2.cx2, kq2.2xc ) );</span>
-rec( a := (1x1)-[{ Z(3)^0*(1xa*ax1) }]-&gt;(1x1),
-     b := (1x1)-[{ Z(3)^0*(1xb*bx2) }]-&gt;(2x2),
-     c := (2x2)-[{ Z(3)^0*(2xc*cx2) }]-&gt;(2x2) )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">AddBialgebroidStructure( kq, counit, comult );</span>
-Bialgebroid generated by the right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">counit := Counit( kq );</span>
-Functor from finitely presented Bialgebroid generated by
-the right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt;
-Algebra generated by the right quiver *(1)[]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">comult := Comultiplication( kq );</span>
-Functor from finitely presented Bialgebroid generated by
-the right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt;
-Algebroid generated by the right quiver qxq(1x1,1x2,2x1,2x2)
-[1xa:1x1-&gt;1x1,1xb:1x1-&gt;1x2,1xc:1x2-&gt;1x2,2xa:2x1-&gt;2x1,2xb:2x1-&gt;2x2,2xc:2x2-&gt;2x2,\
-ax1:1x1-&gt;1x1,ax2:1x2-&gt;1x2,bx1:1x1-&gt;2x1,bx2:1x2-&gt;2x2,cx1:2x1-&gt;2x1,cx2:2x2-&gt;2x2]
-</pre></div>
+<p>A representation of the category c3c3 is another way to encode a module homomorphism between two modules over the cyclic group <span class="SimpleMath">\(C_3\)</span> of order <span class="SimpleMath">\(3\)</span>: The vector space underlying the first module is the given by the value of (1). The action of C3 on the first module is given by the value of (a). The vector space underlying the second module is the given by the value of (2). The action on the second module is given by the value of (c). The above relation of the quiver states that the value of (b) is a module homomorphism from the first to the second <span class="SimpleMath">\(C_3\)</span>-module.</p>
 
 
 <div class="example"><pre>
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">kmat := MatrixCategory( GF3 );</span>
 Category of matrices over GF(3)
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">CatReps := CategoryOfRepresentations( kq, kmat );</span>
-The category of functors: Bialgebroid generated by the right quiver
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">CatReps := Hom( kq, kmat );</span>
+The category of functors: Algebroid generated by the right quiver
 q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">InfoOfInstalledOperationsOfCategory( CatReps );</span>
-109 primitive operations were used to derive 237 operations for this category which
+108 primitive operations were used to derive 236 operations for this category which
 * IsLinearCategoryOverCommutativeRing
 * IsSymmetricMonoidalCategory
 * IsAbelianCategory
@@ -245,7 +268,7 @@ GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zero := ZeroObject( CatReps );</span>
 &lt;(1)-&gt;0, (2)-&gt;0; (a)-&gt;0x0, (b)-&gt;0x0, (c)-&gt;0x0&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( zero );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -275,7 +298,7 @@ A zero, identity morphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">const := TensorUnit( CatReps );</span>
 &lt;(1)-&gt;1, (2)-&gt;1; (a)-&gt;1x1, (b)-&gt;1x1, (c)-&gt;1x1&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( const );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -308,7 +331,7 @@ An identity morphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">nine := AsObjectInHomCategory( kq, [ 5, 4 ], [ d, e, f ] );</span>
 &lt;(1)-&gt;5, (2)-&gt;4; (a)-&gt;5x5, (b)-&gt;5x4, (c)-&gt;4x4&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( nine );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -377,7 +400,7 @@ true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">fortyone(kq.c) = TensorProductOnMorphisms( nine(kq.c), nine(kq.c) );</span>
 true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( fortyone );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -479,7 +502,7 @@ true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">iso;</span>
 &lt;(1)-&gt;25x25, (2)-&gt;16x16&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( Source( iso ) );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -570,7 +593,7 @@ Image of (2)-[{ Z(3)^0*(c) }]-&gt;(2):
 
 A morphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( iso );</span>
-A morphism in The category of functors: Bialgebroid generated by the
+A morphism in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -631,7 +654,7 @@ An isomorphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">six := Source( eta );</span>
 &lt;(1)-&gt;3, (2)-&gt;3; (a)-&gt;3x3, (b)-&gt;3x3, (c)-&gt;3x3&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( six );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -667,7 +690,7 @@ A morphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">emb := EmbeddingOfSumOfImagesOfAllMorphisms( const, six );</span>
 &lt;(1)-&gt;1x3, (2)-&gt;0x3&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( emb );</span>
-A morphism in The category of functors: Bialgebroid generated by the
+A morphism in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -675,7 +698,7 @@ over GF(3) defined by the following data:
 Image of &lt;(1)&gt;:
  . . 1
 
-A split monomorphism in Category of matrices over GF(3)
+A morphism in Category of matrices over GF(3)
 
 
 Image of &lt;(2)&gt;:
@@ -685,7 +708,7 @@ A zero, split monomorphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">s1 := Source( emb );</span>
 &lt;(1)-&gt;1, (2)-&gt;0; (a)-&gt;1x1, (b)-&gt;1x0, (c)-&gt;0x0&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( s1 );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -715,7 +738,7 @@ A zero, isomorphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">proj1 := YonedaProjective( CatReps, kq.1 );</span>
 &lt;(1)-&gt;3, (2)-&gt;3; (a)-&gt;3x3, (b)-&gt;3x3, (c)-&gt;3x3&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( proj1 );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -757,7 +780,7 @@ false
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">five := CokernelObject( emb );</span>
 &lt;(1)-&gt;2, (2)-&gt;3; (a)-&gt;2x2, (b)-&gt;2x3, (c)-&gt;3x3&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( five );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -801,7 +824,7 @@ A morphism in Category of matrices over GF(3)
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">proj2 := YonedaProjective( CatReps, kq.2 );</span>
 &lt;(1)-&gt;0, (2)-&gt;3; (a)-&gt;0x0, (b)-&gt;0x3, (c)-&gt;3x3&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( proj2 );</span>
-An object in The category of functors: Bialgebroid generated by the
+An object in The category of functors: Algebroid generated by the
 right quiver q(2)[a:1-&gt;1,b:1-&gt;2,c:2-&gt;2] -&gt; Category of matrices
 over GF(3) defined by the following data:
 
@@ -831,65 +854,6 @@ Image of (2)-[{ Z(3)^0*(c) }]-&gt;(2):
 
 A morphism in Category of matrices over GF(3)
 </pre></div>
-
-<p><a id="X78189F2D81711B7E" name="X78189F2D81711B7E"></a></p>
-
-<h5>1.3-3 EmbeddingOfSubRepresentation</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; EmbeddingOfSubRepresentation</code>( <var class="Arg">eta</var>, <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: an morphism in a Hom-category</p>
-
-<p>Concstruct the embedding of a subrepresentation <span class="SimpleMath">\(S\)</span> of <var class="Arg">F</var> by a list <var class="Arg">eta</var> of morphisms, where the image embeddings thereof are the components of the natural monomorphism from <span class="SimpleMath">\(S\)</span> into <var class="Arg">F</var>.</p>
-
-<p><a id="X8508AEF8845565A1" name="X8508AEF8845565A1"></a></p>
-
-<h4>1.4 <span class="Heading">Tools</span></h4>
-
-<p><a id="X841B9CFC7EB599A0" name="X841B9CFC7EB599A0"></a></p>
-
-<h5>1.4-1 ConvertToMapOfFinSets</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ConvertToMapOfFinSets</code>( <var class="Arg">objects_list</var>, <var class="Arg">generator</var> )</td><td class="tdright">(&nbsp;function&nbsp;)</td></tr></table></div>
-<p>Returns: a morphism of finite sets</p>
-
-<p>Construct the map of finite sets corresponding to the list of images in the convention of catreps.</p>
-
-
-<div class="example"><pre>
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">c3c3 := ConcreteCategory([[2,3,1],[4,5,6],[,,,5,6,4]]);</span>
-rec( codomain := [ 1, 2, 2 ], domain := [ 1, 1, 2 ],
-     generators := [ [ 2, 3, 1 ], [ 4, 5, 6 ], [ ,,, 5, 6, 4 ] ],
-     objects := [ [ 1, 2, 3 ], [ 4, 5, 6 ] ], operations := rec(  ) )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g1 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[1] );</span>
-&lt;A morphism in FinSets&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g1 );</span>
-[ [ 1, 2, 3 ], [ [ 1, 2 ], [ 2, 3 ], [ 3, 1 ] ], [ 1, 2, 3 ] ]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g2 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[2] );</span>
-&lt;A morphism in FinSets&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g2 );</span>
-[ [ 1, 2, 3 ], [ [ 1, 4 ], [ 2, 5 ], [ 3, 6 ] ], [ 4, 5, 6 ] ]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g3 := ConvertToMapOfFinSets( c3c3.objects, c3c3.generators[3] );</span>
-&lt;A morphism in FinSets&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g3 );</span>
-[ [ 4, 5, 6 ], [ [ 4, 5 ], [ 5, 6 ], [ 6, 4 ] ], [ 4, 5, 6 ] ]
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">g := ConvertToMapOfFinSets( c3c3.objects, [,,,1,1,1] );</span>
-&lt;A morphism in FinSets&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( g );</span>
-[ [ 4, 5, 6 ], [ [ 4, 1 ], [ 5, 1 ], [ 6, 1 ] ], [ 1, 2, 3 ] ]
-</pre></div>
-
-<p><a id="X7DE8E16C7C2D387B" name="X7DE8E16C7C2D387B"></a></p>
-
-<h4>1.5 <span class="Heading">Operations</span></h4>
-
-<p><a id="X7EABCB0081022ACE" name="X7EABCB0081022ACE"></a></p>
-
-<h5>1.5-1 WeakDirectSumDecomposition</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WeakDirectSumDecomposition</code>( <var class="Arg">F</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p>Returns: a list</p>
-
-<p>Return a list of monomorphisms describing the embeddings of a list of direct summands of the representation <var class="Arg">F</var>, the direct sum thereof is isomorphic to <var class="Arg">F</var>.</p>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0_mj.html">[Top of Book]</a>&nbsp;  <a href="chap0_mj.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap0_mj.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd_mj.html">[Next Chapter]</a>&nbsp;  </div>
