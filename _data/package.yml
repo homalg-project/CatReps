@@ -1,6 +1,6 @@
 name: CatReps
-version: "2020.04.15"
-date: 2020-04-15
+version: "2020.04.23"
+date: 2020-04-23
 description: |
     Representations and cohomology of finite categories
 
@@ -44,8 +44,11 @@ needed-pkgs:
     - name: "Toposes"
       version: ">= 2020.04.27"
       url: "https://github.com/homalg-project/Toposes"
+    - name: "Bialgebroids"
+      version: ">= 2020.04.21"
+      url: "https://github.com/homalg-project/Bialgebroids/"
     - name: "FunctorCategories"
-      version: ">= 2020.04.13"
+      version: ">= 2020.04.21"
       url: "https://github.com/homalg-project/FunctorCategories/"
 
 www: https://homalg-project.github.io/CatReps
@@ -54,7 +57,7 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.04.15/CatReps-2020.04.15.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.04.23/CatReps-2020.04.23.tar.gz
 
 abstract: |
 
@@ -67,7 +70,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BGW20</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2020.04.15</i>
+             Version 2020.04.23</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/CatReps">https://homalg-project.github.io/CatReps</a></span>.
@@ -75,9 +78,9 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CatReps2020.04.15,
+    @misc{ CatReps2020.04.23,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
-      title =            {{CatReps}, Representations and cohomology of finite categories, {V}ersion 2020.04.15},
+      title =            {{CatReps}, Representations and cohomology of finite categories, {V}ersion 2020.04.23},
       month =            {Apr},
       year =             {2020},
       note =             {GAP package},

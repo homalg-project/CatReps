@@ -5,11 +5,13 @@
   [2XAlgebroid[102X, for IsHomalgRing, IsCapCategory 1.4-2 
   [2XConcreteCategoryForCAP[102X, for IsList 1.4-1 
   [2XConvertToMapOfFinSets[102X 1.6-1 
-  [2XEmbeddingOfSubRepresentation[102X, for IsList, IsCapCategoryObjectInHomCategory 1.4-3 
+  [2XEmbeddingOfSubRepresentation[102X, for IsList, IsCapCategoryObjectInHomCategory 1.4-4 
   [2XIsCellInAFiniteConcreteCategory[102X, for IsCapCategoryCell 1.2-2 
   [2XIsFiniteConcreteCategory[102X, for IsCapCategory 1.2-1 
   [2XIsMorphismInAFiniteConcreteCategory[102X, for IsCellInAFiniteConcreteCategory and IsCapCategoryMorphism 1.2-4 
   [2XIsObjectInAFiniteConcreteCategory[102X, for IsCellInAFiniteConcreteCategory and IsCapCategoryObject 1.2-3 
+  [2XRelationsOfEndomorphisms[102X, for IsHomalgRing, IsCapCategory 1.4-3 
+  [2XRightQuiverFromConcreteCategory[102X, for IsCapCategory 1.3-4 
   [2XSetOfGeneratingMorphisms[102X, for IsCapSubcategory 1.3-2 
   [2XSetOfMorphisms[102X, for IsCapSubcategory 1.3-3 
   [2XSetOfObjects[102X, for IsCapSubcategory 1.3-1 
