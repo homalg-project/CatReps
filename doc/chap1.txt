@@ -737,7 +737,9 @@
   [33X[0;0YReturn the [3Xk[103X-linear closure of the category [3XC[103X over the commutative ring [3Xk[103X.[133X
   
   [4X[32X  Example  [32X[104X
-    [4X[25Xgap>[125X [27Xc3c3c3 := ConcreteCategoryForCAP( [ [2,3,1], [4,5,6], [,,,5,6,4], [,,,7,8,9], [,,,,,,8,9,7], [7,8,9] ] );[127X[104X
+    [4X[25Xgap>[125X [27Xc3c3c3 := ConcreteCategoryForCAP([127X[104X
+    [4X[25X>[125X [27X                  [ [2,3,1], [4,5,6], [,,,5,6,4],[127X[104X
+    [4X[25X>[125X [27X                    [,,,7,8,9], [,,,,,,8,9,7], [7,8,9] ] );[127X[104X
     [4X[28XA finite concrete category[128X[104X
     [4X[25Xgap>[125X [27Xobjects := SetOfObjects( c3c3c3 );[127X[104X
     [4X[28X[ An object in subcategory given by: <An object in FinSets>,[128X[104X
