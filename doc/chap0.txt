@@ -6,10 +6,10 @@
              [1X Representations and cohomology of finite categories [101X
   
   
-                                   2020.05.17
+                                   2020.05.18
   
   
-                                  17 May 2020
+                                  18 May 2020
   
   
                                 Mohamed Barakat
@@ -70,7 +70,7 @@
       1.4-3 RelationsOfEndomorphisms
       1.4-4 EmbeddingOfSubRepresentation
     1.5 [33X[0;0YOperations[133X
-      1.5-1 WeakDirectSumDecomposition
+      1.5-1 WeakDirectSumDecompositionOld
     1.6 [33X[0;0YTools[133X
       1.6-1 ConvertToMapOfFinSets
   

@@ -164,7 +164,7 @@
     [4X[28XA morphism in Category of matrices over GF(3)[128X[104X
     [4X[25Xgap>[125X [27XIsWellDefined( nine );[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27XLength( WeakDirectSumDecomposition( nine ) );[127X[104X
+    [4X[25Xgap>[125X [27XLength( WeakDirectSumDecompositionOld( nine ) );[127X[104X
     [4X[28X1[128X[104X
     [4X[25Xgap>[125X [27Xfortyone := TensorProductOnObjects( nine, nine );[127X[104X
     [4X[28X<(1)->25, (2)->16; (a)->25x25, (b)->25x16, (c)->16x16>[128X[104X
@@ -271,7 +271,7 @@
     [4X[28X . . . . . . . . . . . . . . . 1[128X[104X
     [4X[28X[128X[104X
     [4X[28XA morphism in Category of matrices over GF(3)[128X[104X
-    [4X[25Xgap>[125X [27Xetas := WeakDirectSumDecomposition( fortyone );;[127X[104X
+    [4X[25Xgap>[125X [27Xetas := WeakDirectSumDecompositionOld( fortyone );;[127X[104X
     [4X[25Xgap>[125X [27Xdec := List( etas, eta -> List( SetOfObjects( kq ),[127X[104X
     [4X[25X>[125X [27X             o -> Dimension( Source( UnderlyingCapTwoCategoryCell( eta )( o ) ) ) ) );[127X[104X
     [4X[28X[ [ 3, 0 ], [ 3, 1 ], [ 3, 3 ], [ 3, 3 ], [ 0, 3 ],[128X[104X
@@ -815,7 +815,7 @@
     [4X[28X. . . . 1[128X[104X
     [4X[28X[128X[104X
     [4X[28XA morphism in Category of matrices over GF(3)[128X[104X
-    [4X[25Xgap>[125X [27Xgammas := WeakDirectSumDecomposition( eleven );[127X[104X
+    [4X[25Xgap>[125X [27Xgammas := WeakDirectSumDecompositionOld( eleven );[127X[104X
     [4X[28X[ <(1)->1x6, (2)->0x5>, <(1)->1x6, (2)->1x5>, <(1)->1x6, (2)->1x5>,[128X[104X
     [4X[28X <(1)->2x6, (2)->0x5>, <(1)->0x6, (2)->2x5>, <(1)->1x6, (2)->1x5> ][128X[104X
   [4X[32X[104X
@@ -1052,9 +1052,9 @@
   
   [1X1.5 [33X[0;0YOperations[133X[101X
   
-  [1X1.5-1 WeakDirectSumDecomposition[101X
+  [1X1.5-1 WeakDirectSumDecompositionOld[101X
   
-  [33X[1;0Y[29X[2XWeakDirectSumDecomposition[102X( [3XF[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XWeakDirectSumDecompositionOld[102X( [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list[133X
   
   [33X[0;0YReturn a list of monomorphisms describing the embeddings of a list of direct
