@@ -10,8 +10,6 @@
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27Xc3c3 := ConcreteCategoryForCAP( [ [2,3,1], [4,5,6], [,,,5,6,4] ] );[127X[104X
     [4X[28XA finite concrete category[128X[104X
-    [4X[25Xgap>[125X [27Xqc3c3 := RightQuiverFromConcreteCategory( c3c3 );[127X[104X
-    [4X[28Xq(2)[a:1->1,b:1->2,c:2->2][128X[104X
     [4X[25Xgap>[125X [27XGF3 := HomalgRingOfIntegers( 3 );[127X[104X
     [4X[28XGF(3)[128X[104X
     [4X[25Xgap>[125X [27Xkq := Algebroid( GF3, c3c3 );[127X[104X
@@ -1046,20 +1044,9 @@
   natural monomorphism from [23XS[123X into [3XF[103X.[133X
   
   
-  [1X1.5 [33X[0;0YOperations[133X[101X
+  [1X1.5 [33X[0;0YTools[133X[101X
   
-  [1X1.5-1 WeakDirectSumDecompositionOld[101X
-  
-  [33X[1;0Y[29X[2XWeakDirectSumDecompositionOld[102X( [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya list[133X
-  
-  [33X[0;0YReturn a list of monomorphisms describing the embeddings of a list of direct
-  summands of the representation [3XF[103X, the direct sum thereof is isomorphic to [3XF[103X.[133X
-  
-  
-  [1X1.6 [33X[0;0YTools[133X[101X
-  
-  [1X1.6-1 ConvertToMapOfFinSets[101X
+  [1X1.5-1 ConvertToMapOfFinSets[101X
   
   [33X[1;0Y[29X[2XConvertToMapOfFinSets[102X( [3Xobjects_list[103X, [3Xgenerator[103X ) [32X function[133X
   [6XReturns:[106X  [33X[0;10Ya morphism of finite sets[133X
