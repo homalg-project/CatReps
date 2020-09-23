@@ -1,9 +1,9 @@
 <!-- BEGIN HEADER -->
 # CatReps – Representations and cohomology of finite categories
 
-| **Documentation**                       | **Build Status**                                            |
-|:---------------------------------------:|:-----------------------------------------------------------:|
-| [![][docs-stable-img]][docs-stable-url] | [![][tests-img]][tests-url] [![][codecov-img]][codecov-url] |
+| **Documentation**         | **Build Status**                                            |
+|:-------------------------:|:-----------------------------------------------------------:|
+| [![][docs-img]][docs-url] | [![][tests-img]][tests-url] [![][codecov-img]][codecov-url] |
 <!-- END HEADER -->
 
 The package `CatReps` provides a constructor for *finite concrete categories* (i.e., finite subcategories of the category of finite sets) by generating morphisms:
@@ -13,9 +13,17 @@ gap> LoadPackage( "CatReps" );
 true
 gap> c3c3 := ConcreteCategoryForCAP( [ [2,3,1], [4,5,6], [,,,5,6,4] ] );
 A finite concrete category
+gap> mors := SetOfGeneratingMorphisms( c3c3 );
+[ A morphism in subcategory given by: <A morphism in FinSets>,
+  A morphism in subcategory given by: <A morphism in FinSets>,
+  A morphism in subcategory given by: <A morphism in FinSets> ]
+gap> Perform( mors, Display );
+A morphism in subcategory given by: [ [ 1, 2, 3 ], [ [ 1, 2 ], [ 2, 3 ], [ 3, 1 ] ], [ 1, 2, 3 ] ]
+A morphism in subcategory given by: [ [ 1, 2, 3 ], [ [ 1, 4 ], [ 2, 5 ], [ 3, 6 ] ], [ 4, 5, 6 ] ]
+A morphism in subcategory given by: [ [ 4, 5, 6 ], [ [ 4, 5 ], [ 5, 6 ], [ 6, 4 ] ], [ 4, 5, 6 ] ]
 ```
 
-Using the procedure `Algebroid` one can then construct a finite presentation of the $k$-linear closure of the given concrete category. The current preliminary implementation only works when the endomorphism monoids of the concrete category are explicitly cyclic:
+Using the procedure `Algebroid` one can then construct a finite presentation of the k-linear closure of the given concrete category. The current preliminary implementation only works when the endomorphism monoids of the concrete category are explicitly cyclic:
 
 ```gap
 gap> Q := HomalgFieldOfRationals( );
@@ -27,7 +35,7 @@ gap> UnderlyingQuiverAlgebra( Qq );
 gap> SetIsLinearClosureOfACategory( Qq, true );
 ```
 
-Finally, using the constructor `Hom` from the package [`FunctorCategories`](https://github.com/homalg-project/FunctorCategories) one can construct the category of finite dimensional $k$-linear representations of the finite concrete category:
+Finally, using the constructor `Hom` from the package [`FunctorCategories`](https://github.com/homalg-project/FunctorCategories) one can construct the category of finite dimensional k-linear representations of the finite concrete category:
 
 ```gap
 gap> CatReps := Hom( Qq, Q );
@@ -37,7 +45,7 @@ q(2)[a:1->1,b:1->2,c:2->2] -> Category of matrices over Q
 
 The supported categorical doctrine of the category of representations is
 
-* $k$-linear,
+* k-linear,
 * symmetric monoidal,
 * Abelian category
 * with enough projectives, and
@@ -64,8 +72,8 @@ Q
 In March 2020 [Peter Webb](https://www-users.math.umn.edu/~webb/)' and his coauthors made a major new release of the former packages `reps` and `catreps` in which they are combined as one. The code of these former packages is still available at [`groupreps`](https://www-users.math.umn.edu/~webb/GAPfiles/groupreps) ([manual](https://www-users.math.umn.edu/~webb/GAPfiles/grouprepstutorial.html)) (the new name for the former reps) and [`catreps`](https://www-users.math.umn.edu/~webb/GAPfiles/catreps) ([manual](https://www-users.math.umn.edu/~webb/GAPfiles/catrepstutorial.html)), but it will no longer be supported. The new package [`reps`](https://www-users.math.umn.edu/~webb/GAPfiles/reps) combines the functionality of both former packages.
 
 <!-- BEGIN FOOTER -->
-[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
-[docs-stable-url]: https://homalg-project.github.io/CatReps/doc/chap0.html
+[docs-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[docs-url]: https://homalg-project.github.io/CatReps/doc/chap0.html
 
 [tests-img]: https://github.com/homalg-project/CatReps/workflows/Tests/badge.svg
 [tests-url]: https://github.com/homalg-project/CatReps/actions?query=workflow%3ATests
