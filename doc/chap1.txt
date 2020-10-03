@@ -475,7 +475,7 @@
     [4X[28XImage of <(1)>:[128X[104X
     [4X[28X . 1 .[128X[104X
     [4X[28X[128X[104X
-    [4X[28XA morphism in Category of matrices over GF(3)[128X[104X
+    [4X[28XA split monomorphism in Category of matrices over GF(3)[128X[104X
     [4X[28X[128X[104X
     [4X[28X[128X[104X
     [4X[28XImage of <(2)>:[128X[104X
