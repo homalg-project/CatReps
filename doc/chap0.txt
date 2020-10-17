@@ -6,10 +6,10 @@
              [1X Representations and cohomology of finite categories [101X
   
   
-                                   2020.10.01
+                                   2020.10-03
   
   
-                                 1 October 2020
+                                17 October 2020
   
   
                                 Mohamed Barakat
@@ -53,7 +53,8 @@
   1 [33X[0;0YFinite concrete categories[133X
     1.1 [33X[0;0YExample[133X
       1.1-1 [33X[0;0YA category of module homomorphisms[133X
-      1.1-2 [33X[0;0YAnother category of module homomorphisms[133X
+      1.1-2 [33X[0;0YOne step in the direct sum decomposition[133X
+      1.1-3 [33X[0;0YAnother category of module homomorphisms[133X
     1.2 [33X[0;0YGAP categories[133X
       1.2-1 IsFiniteConcreteCategory
       1.2-2 IsCellInAFiniteConcreteCategory

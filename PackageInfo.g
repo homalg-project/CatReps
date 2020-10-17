@@ -11,15 +11,15 @@ SetPackageInfo( rec(
 PackageName := "CatReps",
 Subtitle := "Representations and cohomology of finite categories",
 Version := Maximum( [
-                   "2020.10.01", ## Mohamed's version
+                   "2020.10-03", ## Mohamed's version
                    ## this line prevents merge conflicts
-                   "2020.07.04", ## Tibor's version
+                   "2020.10-02", ## Tibor's version
                    ## this line prevents merge conflicts
                    "2020.01.01", ## Peter's version
                    ] ),
 
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "17/10/2020",
+Date := "17/10/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -79,7 +79,7 @@ README_URL      := "https://homalg-project.github.io/CatReps/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/CatReps/releases/download/v", ~.Version, "/CatReps-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages
