@@ -1,7 +1,7 @@
 name: CatReps
-version: "2020.10-05"
+version: "2020.10-06"
 license: "GPL-2.0-or-later"
-date: 2020-10-17
+date: 2020-10-18
 description: |
     Representations and cohomology of finite categories
 
@@ -58,11 +58,11 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.10-05/CatReps-2020.10-05.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.10-06/CatReps-2020.10-06.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.10-05/CatReps-2020.10-05.zip
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.10-06/CatReps-2020.10-06.zip
 
-pdf: https://github.com/homalg-project/CatReps/releases/download/v2020.10-05/CatReps-2020.10-05.pdf
+pdf: https://github.com/homalg-project/CatReps/releases/download/v2020.10-06/CatReps-2020.10-06.pdf
 
 abstract: |
 
@@ -75,7 +75,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BGW20</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2020.10-05</i>
+             Version 2020.10-06</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/CatReps">https://homalg-project.github.io/CatReps</a></span>.
@@ -83,10 +83,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CatReps2020.10-05,
+    @misc{ CatReps2020.10-06,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
       title =            {{CatReps},  Representations  and  cohomology of finite
-                          categories, {V}ersion 2020.10-05},
+                          categories, {V}ersion 2020.10-06},
       month =            {Oct},
       year =             {2020},
       note =             {GAP package},
