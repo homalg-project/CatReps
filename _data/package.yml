@@ -1,7 +1,7 @@
 name: CatReps
-version: "2020.11-02"
+version: "2020.12-01"
 license: "GPL-2.0-or-later"
-date: 2020-11-04
+date: 2020-12-04
 description: |
     Representations and cohomology of finite categories
 
@@ -41,28 +41,28 @@ needed-pkgs:
       url: "https://homalg-project.github.io/SubcategoriesForCAP"
     - name: "MatricesForHomalg"
       version: ">= 2020.02.02"
-      url: "https://homalg-project.github.io/homalg_project/MatricesForHomalg"
+      url: "https://homalg-project.github.io/pkg/MatricesForHomalg"
     - name: "Toposes"
       version: ">= 2020.04.27"
       url: "https://homalg-project.github.io/Toposes"
     - name: "Algebroids"
       version: ">= 2020.11-01"
-      url: "https://homalg-project.github.io/Algebroids"
+      url: "https://homalg-project.github.io/pkg/Algebroids"
     - name: "FunctorCategories"
       version: ">= 2020.11-01"
-      url: "https://homalg-project.github.io/FunctorCategories"
+      url: "https://homalg-project.github.io/pkg/FunctorCategories"
 
-www: https://homalg-project.github.io/CatReps
+www: https://homalg-project.github.io/pkg/CatReps
 readme: README.md
 packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.11-02/CatReps-2020.11-02.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.11-02/CatReps-2020.11-02.zip
+      url: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.zip
 
-pdf: https://github.com/homalg-project/CatReps/releases/download/v2020.11-02/CatReps-2020.11-02.pdf
+pdf: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.pdf
 
 abstract: |
 
@@ -75,23 +75,24 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BGW20</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2020.11-02</i>
+             Version 2020.12-01</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
-    <span class='BibHowpublished'><a href="https://homalg-project.github.io/CatReps">https://homalg-project.github.io/CatReps</a></span>.
+    <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CatReps">https://homalg-project.github.io/pkg/CatReps</a></span>.
     </p>
     
 
 bibtex: |
-    @misc{ CatReps2020.11-02,
+    @misc{ CatReps2020.12-01,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
       title =            {{CatReps},  Representations  and  cohomology of finite
-                          categories, {V}ersion 2020.11-02},
-      month =            {Nov},
+                          categories, {V}ersion 2020.12-01},
+      month =            {Dec},
       year =             {2020},
       note =             {GAP package},
-      howpublished =     {\href       {https://homalg-project.github.io/CatReps}
+      howpublished =     {\href   {https://homalg-project.github.io/pkg/CatReps}
                           {\texttt{https://homalg-project.github.io/}\discretionary
+                          {}{}{}\texttt{pkg/}\discretionary
                           {}{}{}\texttt{CatReps}}},
       keywords =         {finite      categories,      concrete      categories,
                           representations of categories},
