@@ -1,7 +1,7 @@
 name: CatReps
-version: "2020.12-01"
+version: "2021.03-01"
 license: "GPL-2.0-or-later"
-date: 2020-12-04
+date: 2021-03-31
 description: |
     Representations and cohomology of finite categories
 
@@ -29,22 +29,22 @@ needed-pkgs:
       url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
     - name: "CAP"
       version: ">= 2020.04.27"
-      url: "https://homalg-project.github.io/CAP_project/CAP"
+      url: "https://homalg-project.github.io/pkg/CAP"
     - name: "FinSetsForCAP"
       version: ">= 2020.04.01"
-      url: "https://homalg-project.github.io/FinSetsForCAP"
+      url: "https://homalg-project.github.io/pkg/FinSetsForCAP"
     - name: "CategoryConstructor"
-      version: ">= 2020.04.15"
-      url: "https://homalg-project.github.io/CategoryConstructor"
+      version: ">= 2020.12-01"
+      url: "https://homalg-project.github.io/pkg/CategoryConstructor"
     - name: "SubcategoriesForCAP"
       version: ">= 2020.04.07"
-      url: "https://homalg-project.github.io/SubcategoriesForCAP"
+      url: "https://homalg-project.github.io/pkg/SubcategoriesForCAP"
     - name: "MatricesForHomalg"
       version: ">= 2020.02.02"
       url: "https://homalg-project.github.io/pkg/MatricesForHomalg"
     - name: "Toposes"
       version: ">= 2020.04.27"
-      url: "https://homalg-project.github.io/Toposes"
+      url: "https://homalg-project.github.io/pkg/Toposes"
     - name: "Algebroids"
       version: ">= 2020.11-01"
       url: "https://homalg-project.github.io/pkg/Algebroids"
@@ -58,11 +58,11 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2021.03-01/CatReps-2021.03-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.zip
+      url: https://github.com/homalg-project/CatReps/releases/download/v2021.03-01/CatReps-2021.03-01.zip
 
-pdf: https://github.com/homalg-project/CatReps/releases/download/v2020.12-01/CatReps-2020.12-01.pdf
+pdf: https://github.com/homalg-project/CatReps/releases/download/v2021.03-01/CatReps-2021.03-01.pdf
 
 abstract: |
 
@@ -73,22 +73,22 @@ keywords: |
     finite categories, concrete categories, representations of categories.
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>BGW20</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
+    [<span class='BibKey'>BGW21</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2020.12-01</i>
-     (<span class='BibYear'>2020</span>)<br />
+             Version 2021.03-01</i>
+     (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CatReps">https://homalg-project.github.io/pkg/CatReps</a></span>.
     </p>
     
 
 bibtex: |
-    @misc{ CatReps2020.12-01,
+    @misc{ CatReps2021.03-01,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
       title =            {{CatReps},  Representations  and  cohomology of finite
-                          categories, {V}ersion 2020.12-01},
-      month =            {Dec},
-      year =             {2020},
+                          categories, {V}ersion 2021.03-01},
+      month =            {Mar},
+      year =             {2021},
       note =             {GAP package},
       howpublished =     {\href   {https://homalg-project.github.io/pkg/CatReps}
                           {\texttt{https://homalg-project.github.io/}\discretionary
@@ -96,6 +96,6 @@ bibtex: |
                           {}{}{}\texttt{CatReps}}},
       keywords =         {finite      categories,      concrete      categories,
                           representations of categories},
-      printedkey =       {BGW20}
+      printedkey =       {BGW21}
     }
 
