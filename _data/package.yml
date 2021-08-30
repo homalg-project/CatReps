@@ -1,7 +1,7 @@
 name: CatReps
-version: "2021.08-02"
+version: "2021.08-03"
 license: "GPL-2.0-or-later"
-date: 2021-08-27
+date: 2021-08-30
 description: |
     Representations and cohomology of finite categories
 
@@ -30,6 +30,9 @@ needed-pkgs:
     - name: "CAP"
       version: ">= 2021.08-02"
       url: "https://homalg-project.github.io/pkg/CAP"
+    - name: "MonoidalCategories"
+      version: ">= 2021.08-01"
+      url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "LinearAlgebraForCAP"
       version: ">= 2021.07-01"
       url: "https://homalg-project.github.io/pkg/LinearAlgebraForCAP"
@@ -61,11 +64,11 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2021.08-02/CatReps-2021.08-02.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2021.08-03/CatReps-2021.08-03.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CatReps/releases/download/v2021.08-02/CatReps-2021.08-02.zip
+      url: https://github.com/homalg-project/CatReps/releases/download/v2021.08-03/CatReps-2021.08-03.zip
 
-pdf: https://github.com/homalg-project/CatReps/releases/download/v2021.08-02/CatReps-2021.08-02.pdf
+pdf: https://github.com/homalg-project/CatReps/releases/download/v2021.08-03/CatReps-2021.08-03.pdf
 
 abstract: |
 
@@ -78,7 +81,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BGW21</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2021.08-02</i>
+             Version 2021.08-03</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CatReps">https://homalg-project.github.io/pkg/CatReps</a></span>.
@@ -86,10 +89,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CatReps2021.08-02,
+    @misc{ CatReps2021.08-03,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
       title =            {{CatReps},  Representations  and  cohomology of finite
-                          categories, {V}ersion 2021.08-02},
+                          categories, {V}ersion 2021.08-03},
       month =            {Aug},
       year =             {2021},
       note =             {GAP package},
