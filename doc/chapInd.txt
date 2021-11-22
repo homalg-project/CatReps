@@ -7,7 +7,7 @@
   [2XAsFpCategory[102X, for IsFiniteConcreteCategory 1.4-2 
   [2XConcreteCategoryForCAP[102X, for IsList 1.4-1 
   [2XConvertToMapOfFinSets[102X 1.5-1 
-  [2XEmbeddingOfSubRepresentation[102X, for IsList, IsCapCategoryObjectInHomCategory 1.4-5 
+  [2XEmbeddingOfSubRepresentation[102X, for IsList, IsObjectInFunctorCategory 1.4-5 
   [2XIsCellInAFiniteConcreteCategory[102X, for IsCapCategoryCell 1.2-2 
   [2XIsFiniteConcreteCategory[102X, for IsCapCategory 1.2-1 
   [2XIsMorphismInAFiniteConcreteCategory[102X, for IsCellInAFiniteConcreteCategory and IsCapCategoryMorphism 1.2-4 
