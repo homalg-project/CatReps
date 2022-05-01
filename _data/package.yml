@@ -1,7 +1,7 @@
 name: CatReps
-version: "2022.04-03"
+version: "2022.04-04"
 license: "GPL-2.0-or-later"
-date: 2022-04-27
+date: 2022-05-01
 description: |
     Representations and cohomology of finite categories
 
@@ -49,7 +49,7 @@ needed-pkgs:
       version: ">= 2020.02.02"
       url: "https://homalg-project.github.io/pkg/MatricesForHomalg"
     - name: "Toposes"
-      version: ">= 2022.04-16"
+      version: ">= 2022.04-29"
       url: "https://homalg-project.github.io/pkg/Toposes"
     - name: "Algebroids"
       version: ">= 2022.01-02"
@@ -64,11 +64,11 @@ packageinfo: https://homalg-project.github.io/CatReps/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CatReps/releases/download/v2022.04-03/CatReps-2022.04-03.tar.gz
+      url: https://github.com/homalg-project/CatReps/releases/download/v2022.04-04/CatReps-2022.04-04.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CatReps/releases/download/v2022.04-03/CatReps-2022.04-03.zip
+      url: https://github.com/homalg-project/CatReps/releases/download/v2022.04-04/CatReps-2022.04-04.zip
 
-pdf: https://github.com/homalg-project/CatReps/releases/download/v2022.04-03/CatReps-2022.04-03.pdf
+pdf: https://github.com/homalg-project/CatReps/releases/download/v2022.04-04/CatReps-2022.04-04.pdf
 
 abstract: |
 
@@ -81,7 +81,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BGW22</span>]   <b class='BibAuthor'>Barakat, M., Grün, T. and Webb, P.</b>,
      <i class='BibTitle'>CatReps, Representations and cohomology of finite categories,
-             Version 2022.04-03</i>
+             Version 2022.04-04</i>
      (<span class='BibYear'>2022</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CatReps">https://homalg-project.github.io/pkg/CatReps</a></span>.
@@ -89,11 +89,11 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CatReps2022.04-03,
+    @misc{ CatReps2022.04-04,
       author =           {Barakat, M. and Gr{\"u}n, T. and Webb, P.},
       title =            {{CatReps},  Representations  and  cohomology of finite
-                          categories, {V}ersion 2022.04-03},
-      month =            {Apr},
+                          categories, {V}ersion 2022.04-04},
+      month =            {May},
       year =             {2022},
       note =             {GAP package},
       howpublished =     {\href   {https://homalg-project.github.io/pkg/CatReps}
