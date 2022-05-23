@@ -10,10 +10,10 @@ SetPackageInfo( rec(
 
 PackageName := "CatReps",
 Subtitle := "Representations and cohomology of finite categories",
-Version := "2022.05-01",
+Version := "2022.05-02",
 
-Date := "22/05/2022",
-Date := "22/05/2022",
+Date := "23/05/2022",
+Date := "23/05/2022",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -109,7 +109,7 @@ Dependencies := rec(
                    [ "MatricesForHomalg", ">= 2020.02.02" ],
                    [ "Toposes", ">= 2022.04-29" ],
                    [ "Algebroids", ">= 2022.05-02" ],
-                   [ "FunctorCategories", ">= 2022.04-04" ],
+                   [ "FunctorCategories", ">= 2022.05-08" ],
                    ],
   SuggestedOtherPackages := [ ],
   ExternalConditions := [ ],
