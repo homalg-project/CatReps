@@ -58,7 +58,7 @@ The supported categorical doctrine of the category of representations is
 
 ```gap
 gap> InfoOfInstalledOperationsOfCategory( CatReps );
-98 primitive operations were used to derive 319 operations for this category
+92 primitive operations were used to derive 313 operations for this category
 which constructively
 * IsEquippedWithHomomorphismStructure
 * IsLinearCategoryOverCommutativeRing
@@ -110,8 +110,8 @@ To obtain current versions of all dependencies, `git clone` (or `git pull` to up
 [date-img]: https://img.shields.io/endpoint?url=https://homalg-project.github.io/CatReps/badge_date.json&label=🔗%20released%20on&color=yellow
 [date-url]: https://homalg-project.github.io/CatReps/view_release.html
 
-[tests-img]: https://github.com/homalg-project/CatReps/workflows/Tests/badge.svg?branch=master
-[tests-url]: https://github.com/homalg-project/CatReps/actions?query=workflow%3ATests+branch%3Amaster
+[tests-img]: https://github.com/homalg-project/CatReps/actions/workflows/Tests.yml/badge.svg?branch=master
+[tests-url]: https://github.com/homalg-project/CatReps/actions/workflows/Tests.yml?query=branch%3Amaster
 
 [codecov-img]: https://codecov.io/gh/homalg-project/CatReps/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/homalg-project/CatReps
