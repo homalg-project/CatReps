@@ -106,7 +106,7 @@
     [4X[25Xgap>[125X [27Xd := [[1,1,0,0,0],[0,1,1,0,0],[0,0,1,0,0],[0,0,0,1,1],[0,0,0,0,1]];;[127X[104X
     [4X[25Xgap>[125X [27Xe := [[0,1,0,0],[0,0,1,0],[0,0,0,0],[0,1,0,1],[0,0,1,0]];;[127X[104X
     [4X[25Xgap>[125X [27Xf := [[1,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,0,1]];;[127X[104X
-    [4X[25Xgap>[125X [27Xnine := AsObjectInFunctorCategory( A, [ 5, 4 ], [ d, e, f ] );[127X[104X
+    [4X[25Xgap>[125X [27Xnine := AsObjectInFunctorCategory( CatReps, [ 5, 4 ], [ d, e, f ] );[127X[104X
     [4X[28X<(1)->5, (2)->4; (a)->5x5, (b)->5x4, (c)->4x4>[128X[104X
     [4X[25Xgap>[125X [27XDisplay( nine );[127X[104X
     [4X[28XImage of <(1)>:[128X[104X
@@ -666,7 +666,7 @@
     [4X[25Xgap>[125X [27Xd := [[1,1,0,0,0],[0,1,1,0,0],[0,0,1,0,0],[0,0,0,1,1],[0,0,0,0,1]];;[127X[104X
     [4X[25Xgap>[125X [27Xe := [[0,1,0,0],[0,0,1,0],[0,0,0,0],[0,1,0,1],[0,0,1,0]];;[127X[104X
     [4X[25Xgap>[125X [27Xf := [[1,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,0,1]];;[127X[104X
-    [4X[25Xgap>[125X [27Xnine := AsObjectInFunctorCategory( A, [ 5, 4 ], [ d, e, f ] );[127X[104X
+    [4X[25Xgap>[125X [27Xnine := AsObjectInFunctorCategory( CatReps, [ 5, 4 ], [ d, e, f ] );[127X[104X
     [4X[28X<(1)->5, (2)->4; (a)->5x5, (b)->5x4, (c)->4x4>[128X[104X
     [4X[25Xgap>[125X [27XDecomposeOnceByRandomEndomorphism( nine );[127X[104X
     [4X[28Xfail[128X[104X
@@ -1043,7 +1043,7 @@
   C4C4.[133X
   
   [4X[32X  Example  [32X[104X
-    [4X[25Xgap>[125X [27Xeleven := AsObjectInFunctorCategory( A, [ 6, 5 ], [ amat, bmat, cmat ] );[127X[104X
+    [4X[25Xgap>[125X [27Xeleven := AsObjectInFunctorCategory( CatReps, [ 6, 5 ], [ amat, bmat, cmat ] );[127X[104X
     [4X[28X<(1)->6, (2)->5; (a)->6x6, (b)->6x5, (c)->5x5>[128X[104X
     [4X[25Xgap>[125X [27XIsWellDefined( eleven );[127X[104X
     [4X[28Xtrue[128X[104X
